@@ -14,5 +14,5 @@ def add_task(title: str):
     return create_task(title)
 
 @app.get("/health")
-def health_check():
-    return {"status": "healthy"}
+def health():
+    return {"status": "main branch healthy"}
